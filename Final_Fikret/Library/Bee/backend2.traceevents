@@ -1,0 +1,325 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1673784400293697, "dur":13211, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673784400306913, "dur":100, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673784400307061, "dur":455, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673784400308530, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1673784400308702, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1673784400309189, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1673784400307537, "dur":3033, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673784400310571, "dur":362323, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673784400672895, "dur":356, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673784400673430, "dur":1472, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1673784400307466, "dur":3113, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673784400310582, "dur":3688, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673784400335987, "dur":625, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1673784400336617, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1673784400336719, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1673784400337112, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.2.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673784400337728, "dur":234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673784400337964, "dur":550, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673784400338651, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player5ad67083-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1673784400336616, "dur":2329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1673784400339254, "dur":85, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673784400340084, "dur":328463, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1673784400671474, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1673784400671473, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1673784400671567, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1673784400307509, "dur":3077, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673784400310593, "dur":562, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673784400311155, "dur":3133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673784400314319, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1673784400317557, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1673784400318435, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1673784400321576, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400324651, "dur":4740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400329451, "dur":3956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400333467, "dur":339, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400333465, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400338901, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673784400333834, "dur":5143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400339056, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400339129, "dur":32082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400371263, "dur":19261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400390562, "dur":8227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400398828, "dur":11644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400410527, "dur":20934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673784400431515, "dur":6290, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673784400437812, "dur":5946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673784400443900, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1673784400445274, "dur":13552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/level4.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673784400458869, "dur":8013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1673784400466924, "dur":205948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673784400307974, "dur":2786, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673784400310760, "dur":3646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673784400314408, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1673784400345891, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1673784400349261, "dur":38388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673784400387734, "dur":6008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673784400393817, "dur":16334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673784400433572, "dur":13817, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673784400410306, "dur":37107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673784400449899, "dur":17679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1673784400467667, "dur":205257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673784400307582, "dur":3042, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673784400310627, "dur":526, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673784400311153, "dur":3249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673784400314405, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1673784400353904, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1673784400356165, "dur":32429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673784400388650, "dur":40555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673784400433205, "dur":14051, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673784400429261, "dur":18053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1673784400447419, "dur":14573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1673784400462424, "dur":210487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673784400307619, "dur":3012, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673784400310634, "dur":595, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673784400311229, "dur":3064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673784400314306, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.2.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1673784400314294, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1673784400320543, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1673784400321850, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret.exe" }}
+,{ "pid":12345, "tid":5, "ts":1673784400325124, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400326753, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400328736, "dur":4208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400332971, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400332970, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400333048, "dur":4609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400337766, "dur":229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400337763, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400338020, "dur":11389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400349451, "dur":18718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400368312, "dur":23505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400391890, "dur":19440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400411879, "dur":47773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673784400459688, "dur":213180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673784400307659, "dur":2999, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673784400310661, "dur":585, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673784400311246, "dur":3028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673784400314295, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673784400331493, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1673784400332850, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673784400332847, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673784400337027, "dur":118, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673784400332948, "dur":4488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673784400337578, "dur":343, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673784400337574, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673784400337953, "dur":8775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673784400346764, "dur":21306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673784400368131, "dur":30641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673784400398857, "dur":18516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673784400417433, "dur":34941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673784400462186, "dur":4540, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673784400452516, "dur":14359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1673784400466921, "dur":205992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673784400307691, "dur":2975, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673784400310670, "dur":561, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673784400311232, "dur":3086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673784400314318, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1673784400318263, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1673784400318938, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1673784400324398, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1673784400326470, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400329209, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400331820, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400331819, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400331917, "dur":3771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400335716, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400335714, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400335812, "dur":5518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400341433, "dur":14309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400374762, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673784400355815, "dur":19402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400375273, "dur":13943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400389355, "dur":10429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400399845, "dur":31509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673784400431467, "dur":11526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1673784400443066, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1673784400444976, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1673784400462497, "dur":4477, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673784400447070, "dur":19924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1673784400467033, "dur":205881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673784400307729, "dur":2964, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673784400310697, "dur":610, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673784400311307, "dur":2976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673784400314286, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1673784400335368, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1673784400336717, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673784400336715, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673784400336791, "dur":10548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673784400347629, "dur":42613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673784400390325, "dur":9305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673784400399678, "dur":83, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673784400399773, "dur":11619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673784400411904, "dur":16067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673784400428038, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673784400438897, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673784400430506, "dur":8535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673784400439225, "dur":5133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1673784400444471, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1673784400459090, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673784400446544, "dur":12609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1673784400463015, "dur":3979, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673784400459203, "dur":7801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1673784400467066, "dur":205839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673784400307762, "dur":2942, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673784400310708, "dur":624, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673784400311332, "dur":2948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673784400314283, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1673784400321066, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1673784400324554, "dur":4938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673784400329535, "dur":3934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673784400333531, "dur":635, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673784400333529, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673784400334195, "dur":7562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673784400341872, "dur":27619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673784400369542, "dur":17277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673784400386878, "dur":6514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673784400393518, "dur":14750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673784400408349, "dur":7025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673784400415435, "dur":36790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673784400462018, "dur":3552, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673784400452326, "dur":13286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1673784400465759, "dur":207136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673784400307808, "dur":2907, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673784400310719, "dur":345, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673784400311064, "dur":3266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673784400314330, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1673784400327243, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1673784400328492, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673784400331481, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673784400331480, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673784400331607, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673784400335579, "dur":831, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673784400335578, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673784400336426, "dur":19386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673784400355936, "dur":33762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673784400389783, "dur":8813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673784400398641, "dur":13554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673784400412258, "dur":43479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673784400456065, "dur":9948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1673784400466073, "dur":206828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673784400307836, "dur":2889, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673784400310725, "dur":3578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673784400314305, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1673784400315920, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1673784400318433, "dur":3149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1673784400321664, "dur":5352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400327084, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400329367, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400333391, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400333389, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400333547, "dur":5713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400339470, "dur":10884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400350497, "dur":17845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400368397, "dur":18825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400387273, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400405713, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673784400391498, "dur":14336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400406050, "dur":5334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400411920, "dur":39746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673784400451732, "dur":26099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673784400477888, "dur":195009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673784400307875, "dur":2859, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673784400310734, "dur":3545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673784400314295, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.2.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1673784400314280, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1673784400331473, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1673784400332806, "dur":345, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673784400332805, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673784400333210, "dur":5096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673784400338400, "dur":1595, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673784400338398, "dur":1598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673784400340012, "dur":47216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673784400387263, "dur":210, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673784400387477, "dur":30960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673784400418466, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\com.unity.services.core\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1673784400418465, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1673784400419002, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1673784400420030, "dur":90873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673784400510951, "dur":161916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673784400307904, "dur":2839, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673784400310744, "dur":3533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673784400314295, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.2.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1673784400314280, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1673784400326728, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1673784400329319, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400332717, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400332716, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400332789, "dur":3643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400336463, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400336462, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400336556, "dur":9483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400346315, "dur":9420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400355838, "dur":15315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400387454, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673784400371224, "dur":16300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400387571, "dur":5281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400392933, "dur":14189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400412908, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673784400407166, "dur":5890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400413330, "dur":48350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1673784400461757, "dur":211153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673784400307938, "dur":2814, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673784400310752, "dur":3542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673784400314295, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1673784400323960, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1673784400325064, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400326527, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400328069, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400330430, "dur":4102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400334556, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400334555, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400334771, "dur":11356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400367920, "dur":128, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673784400346336, "dur":21812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400368214, "dur":7664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400375947, "dur":15512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400391523, "dur":15999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400407595, "dur":23009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673784400430749, "dur":53472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1673784400484256, "dur":188607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673784400307533, "dur":3081, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673784400310619, "dur":455, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673784400311074, "dur":3218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673784400315534, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1673784400318373, "dur":2815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1673784400321545, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1673784400324667, "dur":4549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673784400329268, "dur":4288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673784400333617, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673784400333615, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673784400333815, "dur":5749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673784400339644, "dur":10501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673784400350180, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673784400350235, "dur":17983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673784400368293, "dur":15445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673784400383796, "dur":8153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673784400392017, "dur":11202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673784400431504, "dur":6161, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673784400403269, "dur":34419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673784400437817, "dur":20862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1673784400458740, "dur":10457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1673784400469261, "dur":203642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673784400308008, "dur":2760, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673784400310769, "dur":3537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673784400314316, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.2.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":16, "ts":1673784400314307, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1673784400323686, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1673784400324692, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400326170, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400327799, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400329916, "dur":4663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400334610, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Monster\\Final_Fikret\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400334608, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400334712, "dur":5617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400340369, "dur":27892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400368324, "dur":7819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400392358, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673784400376227, "dur":16214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400393441, "dur":20482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400413965, "dur":36697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673784400462492, "dur":4263, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673784400450737, "dur":16151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Monster/OneDrive/Masast/FikretFinal/Final_Fikret_Data/level2" }}
+,{ "pid":12345, "tid":16, "ts":1673784400466928, "dur":205971, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673784400677017, "dur":969, "ph":"X", "name": "ProfilerWriteOutput" }
+,
